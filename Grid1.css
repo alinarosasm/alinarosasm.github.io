@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.grid-container{
+    margin: auto;
+    padding: 5px;
+    height: 100vh;
+    background-color: rgb(1, 22, 26);
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-gap: 1px;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-item{
+    background-color: rgb(187, 205, 235);
+    padding: 10px;
+    margin: 3px;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item:nth-child(1){
+    background-color: rgb(234, 48, 48);
+}
+.grid-item:nth-child(2){
+    background-color: rgb(213, 108, 22);
+}
+.grid-item:nth-child(3){
+    background-color: rgb(231, 203, 40);
+}
+.grid-item:nth-child(4){
+    background-color: rgb(10, 108, 81);
+}
+.grid-item:nth-child(5){
+    background-color: rgb(19, 106, 97);
+}
+.grid-item:nth-child(6){
+    background-color: rgb(22, 156, 161);
+}
