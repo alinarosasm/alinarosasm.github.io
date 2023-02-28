@@ -1,0 +1,83 @@
+#header{
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+}
+.box{
+    border: solid;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#bleft{
+   border-left: #f77777;
+   border-left-style: solid;
+   border-left-width: 10px;
+}
+
+#bright{
+    border-right: #6620a9;
+    border-right-style: solid;
+    border-right-width: 10px;
+ }
+
+ #btop{
+    border-top: #6c114e;
+    border-top-style: solid;
+    border-top-width: 5px;
+ }
+
+ #bbottom{
+    border-bottom: #7355b0;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+ }
+
+ #bradius{
+    border: none;
+    border-radius: 50%;
+    background: burlywood;
+ }
+
+ #backimage{
+    background-image: url("https://www.w3schools.com/css/img_tree.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+ }
+
+ #color{
+    background-color: #a2d5e3;
+    color: #000000;
+ }
+
+ #font{
+    font-family:monospace ;
+    font-size: 15px;
+ }
+
+ #fontstyle{
+    font-style: italic;
+ }
+
+ #fontweight{
+    font-weight: bold;
+ }
+
+ #liststyle{
+    list-style-type: square;
+ }
+
+ #margin{
+    margin: 10px 50px 20px;
+ }
+ 
+ #padding{
+    padding: 10px 50px 20px;
+ }
+
+
+ #filter{
+    filter: grayscale(100%);
+ }
