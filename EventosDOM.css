@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.grid-container{
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(235, 227, 218);
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns:repeat(10, 1fr) ;
+    grid-template-rows: repeat(9, 1fr);
+}
+
+.grid-item{
+    background-color: rgba(179, 151, 110, 0.713);
+    padding: 10px;
+    margin: 3px;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+#grid-header{
+    grid-column: 1/ span 10;
+    grid-row: 1 / span 1;
+    background-color: rgba(107, 85, 50, 0.71);
+ }
+
+ #grid-spacer1{
+    grid-row: 37 / span 4;
+     grid-column: 1/ span 10;
+    background-color: rgb(107, 85, 50, 0.71);
+ }
+
+ #grid-spacer2{
+    grid-row: 92 / span 4;
+     grid-column: 1/ span 10;
+    background-color: rgb(107, 85, 50, 0.71);
+ }
+
+ #grid-last{
+    grid-row: 99/ span 10;
+    grid-column: 1/ span 10;
+ }
+
+ /* RESPUESTAS CHAT GPT */
+
+ #grid-content1{
+    grid-row: 2 / span 2;
+     grid-column: 1/ span 5;
+ }
+ 
+ #grid-content3{
+    grid-row: 4 / span 3;
+     grid-column: 1/ span 5;
+ }
+
+ #grid-content5{
+    grid-row: 7 / span 3;
+     grid-column: 1/ span 5;
+ }
+
+ #grid-content7{
+    grid-row: 10 / span 4;
+     grid-column: 1/ span 5;
+ }
+
+ #grid-content9{
+    grid-row: 15 / span 4;
+     grid-column: 1/ span 5;
+ }
+
+ #grid-content11{
+    grid-row: 21 / span 4;
+     grid-column: 1/ span 5;
+ }
+
+ #grid-content13{
+    grid-row: 25 / span 4;
+     grid-column: 1/ span 5;
+ }
+
+ #grid-content15{
+    grid-row: 29 / span 4;
+     grid-column: 1/ span 5;
+ }
+
+ #grid-content17{
+    grid-row: 33 / span 4;
+     grid-column: 1/ span 5;
+ }
+ /* RESPUESTAS COPILOT */
+
+ #grid-content2{
+    grid-row: 2 / span 1;
+     grid-column: 6/ span 8;
+ }
+
+ #grid-content4{
+    grid-row: 3 / span 1;
+     grid-column: 6/ span 8;
+ }
+
+ #grid-content6{
+    grid-row: 4 / span 1;
+     grid-column: 6/ span 8;
+ }
+
+ #grid-content8{
+    grid-row: 5 / span 1;
+     grid-column: 6/ span 8;
+ }
+
+ #grid-content10{
+    grid-row: 6 / span 1;
+     grid-column: 6/ span 8;
+ }
+
+ #grid-content12{
+    grid-row: 7 / span 1;
+     grid-column: 6/ span 8;
+ }
+
+ #grid-content14{
+    grid-row: 8 / span 1;
+     grid-column: 6/ span 8;
+ }
+
+ #grid-content16{
+    grid-row: 9 / span 1;
+     grid-column: 6/ span 8;
+ }
+
+ #grid-content18{
+    grid-row: 10 / span 1;
+     grid-column: 6/ span 8;
+ }
+
+ /* EJERCICIOS */
+
+ #grid-ejercicios1{
+    grid-row: 41 / span 1;
+     grid-column: 1/ span 10;
+ }
+ #grid-ejercicios2{
+    grid-row: 44 / span 1;
+     grid-column: 1/ span 10;
+ }
+ #grid-ejercicios3{
+    grid-row: 50 / span 10;
+     grid-column: 1/ span 10;
+ }
+ #grid-ejercicios4{
+    grid-row: 60 / span 10;
+     grid-column: 1/ span 10;
+ }
+ #grid-ejercicios5{
+    grid-row: 70/ span 10;
+     grid-column: 1/ span 10;
+ }
+ #grid-ejercicios6{
+    grid-row: 80/ span 10;
+     grid-column: 1/ span 10;
+ }
+
+
+ .titulos{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(224, 214, 191);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ .subtitulos{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(54, 41, 12);
+    text-align: center;
+    margin: 3;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ .texto{
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(54, 41, 12);
+    text-align: center;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ ul{
+    font-size: 10px;
+    font-weight: normal;
+    color: rgb(54, 41, 12);
+    text-align: left;
+    margin: 1;
+    padding: 2;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+table, td{
+    border: 1px solid black;
+}
+
